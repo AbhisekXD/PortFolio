@@ -7,7 +7,7 @@ const Navbar = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <nav className="flex flex-wrap items-center justify-between bg-[#465697] text-white px-6 md:px-20 py-4">
+    <nav className="flex flex-wrap items-center justify-between  text-white px-6 md:px-20 py-4">
       {/* Logo */}
       <span className="text-2xl font-bold tracking-wide">Portfolio</span>
 
@@ -24,11 +24,12 @@ const Navbar = () => {
           isOpen ? "block" : "hidden"
         } md:block mt-4 md:mt-0 bg-black md:bg-transparent bg-opacity-30 md:bg-opacity-0 p-4 md:p-0 rounded-xl md:rounded-none`}
       >
-        <li className="py-1 hover:underline cursor-pointer">About</li>
-        <li className="py-1 hover:underline cursor-pointer">Experience</li>
-        <li className="py-1 hover:underline cursor-pointer">Projects</li>
-        <li className="py-1 hover:underline cursor-pointer">Contact</li>
-      </ul>
+  <li><a href="#About" className="hover:underline">About</a></li>
+  <li><a href="#Experience" className="hover:underline">Experience</a></li>
+  <li><a href="#Projects" className="hover:underline">Projects</a></li>
+  <li><a href="#Footer" className="hover:underline">Contact</a></li>
+</ul>
+
     </nav>
   );
 };
