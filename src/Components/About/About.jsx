@@ -26,7 +26,7 @@ const About = () => {
           <div className="flex gap-4 items-start md:justify-start md:ml-10">
             <div>
               <h1 className="text-xl md:text-2xl font-semibold leading-normal">
-                Backend Developer
+                Java Backend Developer
               </h1>
               <p className="text-sm md:text-md leading-tight mt-1 pt-3">
                 With a math degree from Utkal University, I have a strong foundation in logic, problem-solving, and data analysis, which I apply to my role as a software engineer at Disha systems. I have 3.9 years of experience in developing and testing real-time applications that are scalable, reliable, and secure using various Java technologies such as Core Java, JDBC, Servlets, JSP, Spring Framework, Spring Boot, Microservices, Spring Cloud, and AWS.

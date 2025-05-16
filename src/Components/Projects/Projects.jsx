@@ -2,6 +2,9 @@ import React from "react";
 import ProjectCard from "./ProjectCard";
 import airlineImg from "../../assets/airline.webp";
 import projectimg from "../../assets/project_management.png";
+import mfdimg from "../../assets/mutual_fund.png";
+import jenkin from "../../assets/jenkin.png";
+import portfolio from "../../assets/portfolio.png";
 
 
 const Projects = () => {
@@ -12,18 +15,32 @@ const Projects = () => {
       <div className="py-12 px-4 flex flex-wrap justify-center gap-8">
         <ProjectCard
           title="Airline Reservation System"
-          main="This is a blogging website created in Next.js and used a component library."
+          main="Airlines Reservation System Tech Stack: Java (Spring Boot), React.js, MySQL, JWT, Docker, Ubuntu Full-stack system with JWT-based authentication and role-based authorization for users and admins. Designed REST APIs and managed deployment on a private Ubuntu VPS server using Docker."
           image={airlineImg}
         />
         <ProjectCard
-          title="YouTube Clone"
-          main="A YouTube-like clone with video playback, search, and channel features."
+          title="Report Management System"
+          main="
+           Tech Stack: Java, Spring Boot, Spring Security, JWT, MySQL.   
+           Implemented a hierarchical role-based user access system, task tracking, and escalation features.
+           Focused on security with Spring Security and improved error traceability and resolution.
+           "
           image={projectimg}
         />
         <ProjectCard
-          title="Netflix Clone"
-          main="A Netflix-style streaming UI built in React/Next.js using APIs."
-          image={projectimg}
+          title="Mutual Fund Distributor Platform"
+          main="Tech Stack: Java, Spring Boot, Spring Security, Docker, Jenkins Built backend APIs with secure RBAC and JWT, integrated GitHub webhook for automated CI/CD. Deployed containerized applications via Jenkins pipeline, improving deployment frequency."
+          image={mfdimg}
+        />
+        <ProjectCard
+          title="Jenkin Ci/Cd Pipeline"
+          main="Deployed a springboot maven project connected with MySQL & Php Myadmin using Docker compose, Github webhook , Docker, Jenkin  CI/CD pipeline."
+          image={jenkin}
+        />
+        <ProjectCard
+          title="Portfolio in React"
+          main="Created my own Port folio using Html5,vTailwind Css, JavaScript, React Js and deployed in vercel, aso made this mobile responssive and now You're looking at this portfolio now."
+          image={portfolio}
         />
       </div>
     </div>
