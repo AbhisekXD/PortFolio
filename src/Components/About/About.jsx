@@ -6,8 +6,7 @@ const About = () => {
   return (
     <div
       id="About"
-      className="text-white bg-black bg-opacity-30 shadow-xl mx-0 md:mx-20 rounded-lg px-6 py-10 md:px-20 md:py-16"
-    >
+      className="text-white bg-black bg-opacity-30 shadow-xl mx-0 md:mx-20 rounded-lg px-6 py-10 md:px-20 md:py-16">
       {/* Top-centered Heading */}
       <h2 className="text-2xl md:text-4xl font-bold text-center mb-10">About</h2>
 
@@ -25,6 +24,7 @@ const About = () => {
         {/* Right Content */}
         <div className="w-full md:w-2/3 md:pl-10">
           <div className="flex gap-4 items-start md:justify-start md:ml-10">
+              <IoArrowForward size={30} className="mt-1 flex-shrink-0" />
             <div>
               <h1 className="text-xl md:text-2xl font-semibold leading-normal">
                 Backend Developer
