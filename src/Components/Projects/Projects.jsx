@@ -15,7 +15,7 @@ const Projects = () => {
       <div className="py-12 px-4 flex flex-wrap justify-center gap-8">
         <ProjectCard
           title="Airline Reservation System"
-          main="Airlines Reservation System Tech Stack: Java (Spring Boot), React.js, MySQL, JWT, Docker, Ubuntu Full-stack system with JWT-based authentication and role-based authorization for users and admins. Designed REST APIs and managed deployment on a private Ubuntu VPS server using Docker."
+          main="Airlines Reservation System ,where an admin can add the airline details and availability and user can check tracrch airlines and much more,Tech Stack: Java (Spring Boot), React.js, MySQL, JWT, Docker, Ubuntu Full-stack system with JWT-based authentication and role-based authorization for users and admins. Designed REST APIs and managed deployment on a private Ubuntu VPS server using Docker."
           image={airlineImg}
         />
         <ProjectCard
