@@ -32,7 +32,7 @@ const Experience = () => {
           <h2 className="text-lg font-semibold">DISHA SYSTEMS INDIA PRIVATE LIMITED</h2>
           <p className="text-sm font-thin">Aug 2021 - Present, Hyderabad</p>
           <ul className="text-sm mt-2 list-disc list-inside space-y-1">
-            <li>Work as Software Developer at Caprileo with 3.9 years of experience</li>
+            <li>Work as Software Developer at Disha Systems with 3.9 years of experience</li>
             <li>Developed scalable and secure real-time applications using Java, Spring Boot, and Microservices</li>
             <li>Designed RESTful APIs using Spring MVC, documented with Swagger, and tested via Postman</li>
             <li>Implemented authentication and authorization using JWT and Spring Security</li>
