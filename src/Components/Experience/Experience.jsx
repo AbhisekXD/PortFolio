@@ -35,6 +35,7 @@ const Experience = () => {
             <li>Work as Software Developer at Disha Systems with 3.9 years of experience</li>
             <li>Developed scalable and secure real-time applications using Java, Spring Boot, and Microservices</li>
             <li>Designed RESTful APIs using Spring MVC, documented with Swagger, and tested via Postman</li>
+            <li>Integrated payment gateway(Paypal,Stripe) for one time and recurrring payment</li>
             <li>Implemented authentication and authorization using JWT and Spring Security</li>
             <li>Integrated Apache Kafka for asynchronous and event-driven communication</li>
             <li>Utilized Docker for containerization and deployment of applications</li>
