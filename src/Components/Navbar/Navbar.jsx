@@ -20,15 +20,16 @@ const Navbar = () => {
 
       {/* Navigation Links */}
       <ul
-        className={`w-full md:w-auto md:flex md:items-center md:gap-6 font-semibold text-center transition-all duration-300 ease-in-out ${
-          isOpen ? "block" : "hidden"
-        } md:block mt-4 md:mt-0 bg-black md:bg-transparent bg-opacity-30 md:bg-opacity-0 p-4 md:p-0 rounded-xl md:rounded-none`}
+        className={`w-full md:w-auto md:flex md:items-center md:gap-6 font-semibold text-center transition-all duration-300 ease-in-out ${isOpen ? "block" : "hidden"
+          } md:block mt-4 md:mt-0 bg-black md:bg-transparent bg-opacity-30 md:bg-opacity-0 p-4 md:p-0 rounded-xl md:rounded-none`}
       >
-  <li><a href="#About" className="hover:underline">About</a></li>
-  <li><a href="#Experience" className="hover:underline">Experience</a></li>
-  <li><a href="#Projects" className="hover:underline">Projects</a></li>
-  <li><a href="#Footer" className="hover:underline">Contact</a></li>
-</ul>
+        <li><a href="#Resume" className="hover:underline">Resume</a></li>
+        <li><a href="#About" className="hover:underline">About</a></li>
+        <li><a href="#Experience" className="hover:underline">Experience</a></li>
+        <li><a href="#Projects" className="hover:underline">Projects</a></li>
+        <li><a href="#Footer" className="hover:underline">Contact</a></li>
+      </ul>
+
 
     </nav>
   );

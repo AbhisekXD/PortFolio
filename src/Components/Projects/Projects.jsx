@@ -43,6 +43,27 @@ const Projects = () => {
           image={portfolio}
         />
       </div>
+      
+      <div id="Resume" className="text-center my-10">
+  <span className="text-3xl font-bold mb-6 block">Download My CV</span>
+  <div className="flex justify-center gap-4 mt-4">
+    <a 
+      href="/Abhisek_Nayak_Experienced_Java_Developer_Resume.pdf" 
+      download 
+      className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition"
+    >
+      Download PDF
+    </a>
+    <a 
+      href="/Abhisek_Nayak_Experienced_Java_Developer_Resume.docx" 
+      download 
+      className="bg-gray-600 text-white px-4 py-2 rounded hover:bg-gray-700 transition"
+    >
+      Download DOCX
+    </a>
+  </div>
+</div>
+
     </div>
   );
 };

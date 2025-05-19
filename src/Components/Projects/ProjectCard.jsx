@@ -17,6 +17,7 @@ const ProjectCard = ({ title, main, image }) => {
         {main}
       </p>
     </div>
+    
   );
 };
 
