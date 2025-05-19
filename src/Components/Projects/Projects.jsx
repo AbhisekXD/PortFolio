@@ -29,7 +29,7 @@ const Projects = () => {
         />
         <ProjectCard
           title="Mutual Fund Distributor Platform"
-          main="Tech Stack: Java, Spring Boot, Spring Security, Docker, Jenkins Built backend APIs with secure RBAC and JWT, integrated GitHub webhook for automated CI/CD. Deployed containerized applications via Jenkins pipeline, improving deployment frequency."
+          main="Portal for fund distributors to onboard clients and manage transactions,Tech Stack: Java, Spring Boot, Spring Security, Docker, Jenkins Built backend APIs with secure RBAC and JWT, integrated GitHub webhook for automated CI/CD. Deployed containerized applications via Jenkins pipeline, improving deployment frequency."
           image={mfdimg}
         />
         <ProjectCard
