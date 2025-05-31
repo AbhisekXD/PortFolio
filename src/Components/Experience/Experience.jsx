@@ -32,9 +32,9 @@ const Experience = () => {
         <FaD color="#4285F4" size={50} />
         <div className="text-white">
           <h2 className="text-lg font-semibold">DISHA SYSTEMS INDIA PRIVATE LIMITED</h2>
-          <p className="text-sm font-thin">Aug 2021 - Present, Hyderabad</p>
+          <p className="text-sm font-thin">May 2021 - Present, Hyderabad</p>
           <ul className="text-sm mt-2 list-disc list-inside space-y-1">
-            <li>Worked as a Software Developer at Disha Systems with 3.9 years of experience in designing and developing secure, scalable real-time applications using Java, Spring Boot, and Microservices architecture.</li>
+            <li>Worked as a Software Developer at Disha Systems with 4.1 years of experience in designing and developing secure, scalable real-time applications using Java, Spring Boot, and Microservices architecture.</li>
             <li>Architected and maintained microservices-based applications, achieving 99.9% uptime and reducing system downtime by 40%.</li>
             <li>Designed and documented 50+ RESTful APIs using Spring MVC and Swagger; validated endpoints via Postman, reducing manual testing time by 25%.</li>
             <li>Implemented OAuth 2.0 and JWT-based authentication and authorization with Spring Security, enabling role-based access control.</li>

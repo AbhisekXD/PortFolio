@@ -11,7 +11,7 @@ const Home = () => {
         </h1>
         <p className="text-sm md:text-2xl -tracking-normal pt-5">
           {/* Software Developer @ Disha systems | Java, Spring Boot, Micro Services. */}
-          A software Developer with 3.9 years of experience in building
+          A software Developer with 4.1 years of experience in building
           scalable, secure, and high-performance applications using Java,
           Spring Boot, and Microservices.
         </p>
